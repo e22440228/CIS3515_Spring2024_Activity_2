@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         /* TODO Step 1: Populate this array */
         //val numberArray = Array Of Numbers
-        val numberArray = arrayOf<Int>();
+        val numberArray = arrayOf<Int>(100);
         for (i in numberArray.indices){
             if (i%2 == 0)
                 numberArray[i] = i
